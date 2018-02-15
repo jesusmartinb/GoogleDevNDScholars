@@ -1,0 +1,61 @@
+/* add your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body{
+background-color: #ccc;
+}
+
+.main-wrapper {
+  width: 324px;
+  margin: 12px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #ddd;
+  background: #d5ab57;
+  background: -webkit-linear-gradient(bottom left, #d5ab57 25%, #f8daa8 71%);
+  background: -o-linear-gradient(bottom left, #d5ab57 25%, #f8daa8 71%);
+  background: linear-gradient(to top right, #d5ab57 25%, #f8daa8 71%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5ab57', endColorstr='#f8daa8',GradientType=1 );
+}
+
+header {
+  width: 95%;
+  margin: 20px auto 10px auto;
+}
+
+header h3 {
+  font-size: 24px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+header img {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.text {
+  width: 95%;
+  margin: 10px auto 20px auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.text p.interest {
+  font-style: italic;
+}
+
+.text ul {
+  list-style: none;
+  padding-left: 0;
+  /*margin-left: -40px;*/
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 1.1em;
+}
