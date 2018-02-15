@@ -1,2 +1,2 @@
 # GoogleDevNDScholars
-Repositorio del GoogleDevNDScholar
+Repositorio del GoogleDevNDScholar de Jesús Martín Blanco
