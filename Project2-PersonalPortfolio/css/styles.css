@@ -72,15 +72,28 @@ h3 {
   text-align: center;
 }
 
+.styles h3 {
+  text-align: center;
+  margin-top: 2.2rem;
+  text-decoration: underline;
+}
+
+.styles .no-underline {
+  text-decoration: none;
+  margin-top: 0;
+}
+
 .styles .links {
   display: none;
 }
 
-.styles .iconography .zocial-yelp {
-  font-size: 2rem;
+.styles .iconography .linkedin {
+  font-size: 1rem;
   color: #3eace1;
+  background-color: #fefefe;
   text-align: center;
-  display: block;
+  display: inline-block;
+  padding: 1rem;
 }
 
 .styles .zocial {
@@ -291,7 +304,7 @@ footer {
   list-style-type: none;
   display: inline-block;
   padding: 1.5rem;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .redes li a {
@@ -302,18 +315,6 @@ footer {
 
 .redes li a span {
   font-size: 2rem;
-}
-
-.zocial-googleplus {
-  color: #f00;
-}
-
-.zocial-linkedin {
-  color: #3eace1;
-}
-
-.zocial-github {
-  color: #000;
 }
 
 .copy {
@@ -381,13 +382,6 @@ footer {
 
   .styles .button .button-hover {
     color: #7e92aa;
-  }
-
-  .styles .iconography .zocial-yelp {
-    font-size: 2rem;
-    color: #3eace1;
-    text-align: center;
-    display: block;
   }
 
   .styles .zocial {
@@ -476,16 +470,6 @@ footer {
     margin: 0;
   }
 
-  .styles h3 {
-    text-align: center;
-    margin-top: 2.2rem;
-    text-decoration: underline;
-  }
-
-  .styles .no-underline {
-    text-decoration: none;
-    margin-top: 0;
-  }
   .styles .links .link {
     font-size: 1.2rem;
     text-align: center;
