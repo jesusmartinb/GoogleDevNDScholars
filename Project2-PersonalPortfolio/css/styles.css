@@ -1,0 +1,555 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  padding: 0 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: #fefefe;
+}
+
+aside, main, header, nav, section, article, footer, figure {
+  display: block;
+}
+
+h1, h2, h4 {
+  color: #313d49;
+}
+
+h3 {
+  color: #7e92aa;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1592px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.styles {
+  order: 1;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.color {
+  width: 106px;
+  height: 106px;
+  margin: 10px auto;
+}
+
+.color-blue {
+  background-color: #3eace1;
+}
+
+.color-black {
+  background-color: #313d49;
+}
+
+.color-gray {
+  background-color: #7e92aa;
+}
+
+.colors p{
+  text-align: center;
+}
+
+.styles .typography h1, .styles .typography h2 {
+  text-align: center;
+}
+
+.styles .links {
+  display: none;
+}
+
+.styles .iconography .zocial-yelp {
+  font-size: 2rem;
+  color: #3eace1;
+  text-align: center;
+  display: block;
+}
+
+.styles .zocial {
+  text-align: center;
+  color: #313d49;
+}
+
+.main {
+  width: 100%;
+}
+
+header {
+  border-bottom: 2px solid #7e92aa;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+width: 100px;
+margin-left: 10px;
+height: 120px;
+}
+
+.logo img {
+  width: 90%;
+  height: 90%;
+}
+
+h1 {
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 5px;
+  text-align: right;
+
+}
+
+h2 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin: 5px;
+  text-align: right;
+}
+
+.title {
+  margin-right: 10px;
+  margin-top: 15px;
+  width: 70%;
+}
+
+.menu {
+  order: 2;
+  padding-top: 15px;
+}
+
+.header-menu svg {
+  cursor: pointer;
+  fill: #7e92aa;
+  width: 36px;
+}
+
+.nav-principal {
+  width: 240px;
+  position: absolute;
+  -webkit-transform: translate(-245px,0);
+  transform: translate(-245px,0);
+  transition: transform 0.3s ease;
+}
+
+.nav-principal.open {
+  -webkit-transform: translate(0,0);
+  transform: translate(0,0);
+}
+
+.principal {
+display: flex;
+flex-direction: column;
+
+}
+
+.principal li{
+  list-style-type: none;
+}
+
+.principal li a,
+.styles .button .button-link,
+.styles .button .button-hover {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.1rem;
+  padding: 1.2rem;
+  background: #3eace1;
+  background: -moz-linear-gradient(top, #3eace1 24%, #7e92aa 81%);
+  background: -webkit-linear-gradient(top, #3eace1 24%,#7e92aa 81%);
+  background: linear-gradient(to bottom, #3eace1 24%,#7e92aa 81%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3eace1', endColorstr='#7e92aa',GradientType=0 );
+  color: #fefefe;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.principal li a:first-child {
+  margin-top: 0.2rem;
+}
+
+.principal li a:hover,
+.styles .button .button-link:hover,
+.styles .button .button-hover {
+  color: #000;
+}
+
+/****** Section cover *******/
+
+.cover img{
+  width: 100%;
+}
+
+/******** Section feature  *******/
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature img, .next-works img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.feature .item-feature p {
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.feature .item-feature a {
+  background: #3eace1;
+  background: -webkit-linear-gradient(#3eace1 24%, #7e92aa 81%);
+  background: -o-linear-gradient(#3eace1 24%, #7e92aa 81%);
+  background: linear-gradient(#3eace1 24%, #7e92aa 81%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3eace1', endColorstr='#7e92aa',GradientType=0 );
+  text-decoration: none;
+  color: #fefefe;
+  padding: 1.5rem;
+  border: 1px solid #3eace1;
+  border-radius: 6px;
+}
+
+.feature .item-feature a:hover {
+  color: #000;
+}
+
+/******* Section Next Works ********/
+
+.next-works {
+  display: flex;
+  flex-direction: column;
+}
+
+.next-works .shadow {
+  position: relative;
+  width: 100%;
+}
+
+.next-works .shadow .fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  color: #fefefe;
+  padding: 30% 15px 0 15px;
+  text-align: justify;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.next-works .shadow .fondo:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+/********* Footer ********/
+
+footer {
+  border-top: 2px solid #7e92aa;
+  margin-top: 1.2rem;
+  text-align: center;
+
+}
+
+.redes li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.redes li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.5rem;
+}
+
+.redes li a span {
+  font-size: 2rem;
+}
+
+.zocial-googleplus {
+  color: #f00;
+}
+
+.zocial-linkedin {
+  color: #3eace1;
+}
+
+.zocial-github {
+  color: #000;
+}
+
+.copy {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/************  Responsive ***********/
+
+@media screen and (min-width: 768px) {
+  .styles {
+    order: 1;
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .styles h1, .styles h2, .styles h3 {
+    margin: 20px 0;
+  }
+
+  .styles h3 {
+    text-align: center;
+    margin-top: 2.2rem;
+    text-decoration: underline;
+  }
+
+  .styles .no-underline {
+    text-decoration: none;
+    margin-top: 0;
+  }
+
+.styles .links {
+  display: block;
+}
+
+  .styles .links .link {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1.2rem;
+    color: #313d49;
+  }
+
+  .styles .links .hover {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1.2rem;
+    color: #7e92aa;
+  }
+
+  .styles .button .button-link, .styles .button .button-hover {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #3eace1;
+    border-radius: 6px;
+    background: none;
+    display: block;
+    font-size: 1rem;
+    color: #313d49;
+  }
+
+  .styles .button .button-hover {
+    color: #7e92aa;
+  }
+
+  .styles .iconography .zocial-yelp {
+    font-size: 2rem;
+    color: #3eace1;
+    text-align: center;
+    display: block;
+  }
+
+  .styles .zocial {
+    text-align: center;
+    color: #313d49;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+  .menu {
+    display: none;
+  }
+
+  .nav-principal {
+    width: 100%;
+    position: static;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  .principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  }
+
+  .principal li{
+    list-style-type: none;
+  }
+
+  .principal li a {
+    display: block;
+    text-align: center;
+    margin-right: 0.1rem;
+    padding: 1.2rem;
+    background: none;
+    text-decoration: none;
+    color: #313d49;
+  }
+
+  .principal li a:hover {
+    color: #7e92aa;
+  }
+
+  .feature, .next-works {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .feature h3, .next-works h3 {
+    width: 100%;
+  }
+
+  .item-feature, .item-next-works {
+    width: 45%;
+  }
+
+  .feature .item-feature a {
+    background: none;
+    text-decoration: none;
+    color: #313d49;
+    padding: 1.5rem;
+  }
+
+  .feature .item-feature a:hover {
+    color: #7e92aa;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .styles {
+    display: block;
+    order: 0;
+    width: 20%;
+    padding-top: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .styles h1, .styles h2, .styles h3 {
+    margin: 0;
+  }
+
+  .styles h3 {
+    text-align: center;
+    margin-top: 2.2rem;
+    text-decoration: underline;
+  }
+
+  .styles .no-underline {
+    text-decoration: none;
+    margin-top: 0;
+  }
+  .styles .links .link {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1.2rem;
+    color: #313d49;
+  }
+
+  .styles .links .hover {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1.2rem;
+    color: #7e92aa;
+  }
+
+  .styles .button .button-link, .styles .button .button-hover {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #3eace1;
+    border-radius: 6px;
+    background: none;
+    display: block;
+    font-size: 1rem;
+    color: #313d49;
+  }
+
+  .styles .button .button-hover {
+    color: #7e92aa;
+  }
+
+  .main {
+    width: 80%;
+    padding-right: 4%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2, h3 {
+    font-size: 1.5rem;
+  }
+
+  .principal li a {
+    font-size: 1.2rem;
+  }
+
+  .feature, .next-works {
+    justify-content: space-between;
+  }
+
+  .item-feature, .item-next-works {
+    width: 30%;
+  }
+
+  .feature .item-feature p {
+    margin: 1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+
+  .feature .item-feature p a {
+    padding: 1rem;
+  }
+
+  .next-works .shadow .fondo {
+    padding-top: 12%;
+  }
+}

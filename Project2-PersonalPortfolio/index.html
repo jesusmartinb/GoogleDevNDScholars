@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Jesús Martín Blanco Portfolio</title>
+</head>
+<body>
+  <div class="wrapper">
+    <aside class="styles">
+      <div class="colors">
+        <h3>Color Palette</h3>
+        <div class="color color-blue"></div>
+        <p>#3eace1</p>
+        <div class="color color-black"></div>
+        <p>#313d49</p>
+        <div class="color color-gray"></div>
+        <p>#7e92aa</p>
+      </div>
+      <div class="typography">
+        <h3>Typography</h3>
+        <div class="family">Open Sans</div>
+        <h1>HEADER 1</h1>
+        <h2>HEADER 2</h2>
+        <h3 class="no-underline">Header 3</h3>
+        <h4>Header 4</h4>
+        <p>Paragraf</p>
+      </div>
+      <div class="links">
+        <h3>Links</h3>
+        <div class="link">Link</div>
+        <div class="hover">Hover</div>
+      </div>
+      <div class="button">
+        <h3>Buttons</h3>
+        <buttom class="button-link">Button</buttom>
+        <buttom class="button-hover">Hover</buttom>
+      </div>
+      <div class="iconography">
+        <h3>Iconography</h3>
+        <div class="icon-zocial"><span class="zocial-yelp"></span></div>
+        <div class="zocial">Zocial</div>
+      </div>
+    </aside>
+    <main class="main">
+      <header>
+        <div class="logo">
+          <img src="images/jmb.svg" alt="Logo">
+          <!-- <a href='https://www.freepik.com/free-vector/retro-vintage-type-font_716623.htm'>Designed by Freepik</a> -->
+        </div>
+        <div class="title">
+          <h1>Jesús Martín Blanco</h1>
+          <h2>Front-end Developer</h2>
+        </div>
+        <div class="menu">
+          <a id="menu" class="header-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+            </svg>
+          </a>
+        </div>
+      </header>
+      <nav class="nav-principal">
+        <ul class="principal">
+          <li><a href="#feature">Featured Works</a></li>
+          <li><a href="#next-works">Next Works</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="cover">
+        <picture>
+          <source media="(min-width: 1592px)" srcset="images/portada-1920_extra_2x.jpg 2x, images/portada-1242_extra_1x.jpg 1x">
+          <source media="(min-width: 1172px)" srcset="images/portada-1760_big_2x.jpg 2x, images/portada-880_big_1x.jpg 1x">
+          <source media="(min-width: 768px)" srcset="images/portada-1000_medium_2x.jpg 2x, images/portada-500_medium_1x.jpg 1x">
+          <source media="(min-width: 400px)" srcset="images/portada-600_small_2x.jpg 2x, images/portada-300_small_1x.jpg 1x">
+          <img src="images/portada-880_big_1x.jpg" alt="Portada">
+        </picture>
+      </section>
+      <section id="feature" class="feature">
+        <h3>Featured Work</h3>
+        <article class="item-feature">
+          <picture>
+            <source media="(min-width: 1024px)" srcset="images/project01-1476_big_2x.jpg 2x, images/project01-738_big_1x.jpg 1x">
+            <source media="(max-width: 435px)" srcset="images/project01-660_small_2x.jpg 2x, images/project01-330_small_1x.jpg 1x">
+            <source media="(max-width: 767px)" srcset="images/project01-1476_big_2x.jpg 2x, images/project01-738_big_1x.jpg 1x">
+            <source media="(max-width: 1023px)" srcset="images/project01-894_medium_2x.jpg 2x, images/project01-447_medium_1x.jpg 1x">
+            <img src="images/project01-738_big_1x.jpg" alt="Projecto Animal Trading Card">
+          </picture>
+          <p><a href="https://jesusmartinb.github.io/GoogleDevNDScholars-Fend/Project1-AnimalTradingCards/card.html">Animal Trading Cards</a></p>
+        </article>
+        <article class="item-feature">
+          <picture>
+            <source media="(min-width: 1024px)" srcset="images/project02-1476_big_2x.jpg 2x, images/project02-738_big_1x.jpg 1x">
+            <source media="(max-width: 435px)" srcset="images/project02-660_small_2x.jpg 2x, images/project02-330_small_1x.jpg 1x">
+            <source media="(max-width: 767px)" srcset="images/project02-1476_big_2x.jpg 2x, images/project02-738_big_1x.jpg 1x">
+            <source media="(max-width: 1023px)" srcset="images/project02-894_medium_2x.jpg 2x, images/project02-447_medium_1x.jpg 1x">
+            <img src="images/project02-738_big_1x.jpg" alt="Personal Portfolio">
+          </picture>
+          <p><a href="https://jesusmartinb.github.io/GoogleDevNDScholars-Fend/Project2-PersonalPortfolio/index.html">Personal Portfolio</a></p>
+        </article>
+        <article class="item-feature">
+          <picture>
+            <source media="(min-width: 1024px)" srcset="images/project03-1476_big_2x.jpg 2x, images/project03-738_big_1x.jpg 1x">
+            <source media="(max-width: 435px)" srcset="images/project03-660_small_2x.jpg 2x, images/project03-330_small_1x.jpg 1x">
+            <source media="(max-width: 767px)" srcset="images/project03-1476_big_2x.jpg 2x, images/project03-738_big_1x.jpg 1x">
+            <source media="(max-width: 1023px)" srcset="images/project03-894_medium_2x.jpg 2x, images/project03-447_medium_1x.jpg 1x">
+            <img src="images/project03-738_big_1x.jpg" alt="The Brighton Times">
+          </picture>
+          <p><a href="https://jesusmartinb.github.io/GoogleDevNDScholars-Fend/TheBrightonTimes/index.html">The Brighton Times</a></p>
+        </article>
+      </section>
+      <section id="next-works" class="next-works">
+        <h3>Next Work</h3>
+        <article class="item-next-works">
+          <div class="shadow">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="images/project04-1476_big_2x.png 2x, images/project04-738_big_1x.png 1x">
+              <source media="(max-width: 435px)" srcset="images/project04-660_small_2x.png 2x, images/project04-330_small_1x.png 1x">
+              <source media="(max-width: 767px)" srcset="images/project04-1476_big_2x.png 2x, images/project04-738_big_1x.png 1x">
+              <source media="(max-width: 1023px)" srcset="images/project04-894_medium_2x.png 2x, images/project04-447_medium_1x.png 1x">
+              <img src="images/project04-738_big_1x.jpg" alt="Memory Game">
+            </picture>
+            <div class="fondo">In this project, I’ll demonstrate my mastery of HTML, CSS, and JavaScript by building a complete browser-based card matching game (also known as...</div>
+          </div>
+          <h4>Memory Game</h4>
+        </article>
+        <article class="item-next-works">
+          <div class="shadow">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="images/project05-1476_big_2x.png 2x, images/project05-738_big_1x.png 1x">
+              <source media="(max-width: 435px)" srcset="images/project05-660_small_2x.png 2x, images/project05-330_small_1x.png 1x">
+              <source media="(max-width: 767px)" srcset="images/project05-1476_big_2x.png 2x, images/project05-738_big_1x.png 1x">
+              <source media="(max-width: 1023px)" srcset="images/project05-894_medium_2x.png 2x, images/project05-447_medium_1x.png 1x">
+              <img src="images/project05-738_big_1x.jpg" alt="Classic Arcade Game Clone">
+            </picture>
+            <div class="fondo">In this project, I’ll recreate the classic arcade game Frogger. I will be provided visual assets and a game loop engine; using these tools I must add a...</div>
+          </div>
+          <h4>Classic Arcade Game</h4>
+        </article>
+        <article class="item-next-works">
+          <div class="shadow">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="images/project06-1476_big_2x.jpg 2x, images/project06-738_big_1x.jpg 1x">
+              <source media="(max-width: 435px)" srcset="images/project06-660_small_2x.jpg 2x, images/project06-330_small_1x.jpg 1x">
+              <source media="(max-width: 767px)" srcset="images/project06-1476_big_2x.jpg 2x, images/project06-738_big_1x.jpg 1x">
+              <source media="(max-width: 1023px)" srcset="images/project06-894_medium_2x.jpg 2x, images/project06-447_medium_1x.jpg 1x">
+              <img src="images/project06-738_big_1x.jpg" alt="Feed Reader Testing">
+            </picture>
+            <div class="fondo">In this project, I’ll be learning about testing with Javascript. Testing is an important part of the development process and many...</div>
+          </div>
+          <h4>Feed Reader Testing</h4>
+        </article>
+        <article class="item-next-works">
+          <div class="shadow">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="images/project07-1476_big_2x.jpg 2x, images/project07-738_big_1x.jpg 1x">
+              <source media="(max-width: 435px)" srcset="images/project07-660_small_2x.jpg 2x, images/project07-330_small_1x.jpg 1x">
+              <source media="(max-width: 767px)" srcset="images/project07-1476_big_2x.jpg 2x, images/project07-738_big_1x.jpg 1x">
+              <source media="(max-width: 1023px)" srcset="images/project07-894_medium_2x.jpg 2x, images/project07-447_medium_1x.jpg 1x">
+              <img src="images/project07-738_big_1x.jpg" alt="Restaurant Reviews">
+            </picture>
+            <div class="fondo">For this project, I will convert a static webpage to a mobile-ready web application. I will take a static design that lacks accessibility and convert the design...</div>
+          </div>
+          <h4>Restaurant Reviews</h4>
+        </article>
+        <article class="item-next-works">
+          <div class="shadow">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="images/project08-1476_big_2x.jpg 2x, images/project08-738_big_1x.jpg 1x">
+              <source media="(max-width: 435px)" srcset="images/project08-660_small_2x.jpg 2x, images/project08-330_small_1x.jpg 1x">
+              <source media="(max-width: 767px)" srcset="images/project08-1476_big_2x.jpg 2x, images/project08-738_big_1x.jpg 1x">
+              <source media="(max-width: 1023px)" srcset="images/project08-894_medium_2x.jpg 2x, images/project08-447_medium_1x.jpg 1x">
+              <img src="images/project08-738_big_1x.jpg" alt="MyReads: A Book Tracking App">
+            </picture>
+            <div class="fondo">In this project, I will create a React application from scratch and utilize React components to manage the user interface. I’ll create a virtual bookcase to...</div>
+          </div>
+          <h4>MyReads: A Book Tracking App</h4>
+        </article>
+        <article class="item-next-works">
+          <div class="shadow">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="images/project09-1476_big_2x.jpg 2x, images/project09-738_big_1x.jpg 1x">
+              <source media="(max-width: 435px)" srcset="images/project09-660_small_2x.jpg 2x, images/project09-330_small_1x.jpg 1x">
+              <source media="(max-width: 767px)" srcset="images/project09-1476_big_2x.jpg 2x, images/project09-738_big_1x.jpg 1x">
+              <source media="(max-width: 1023px)" srcset="images/project09-894_medium_2x.jpg 2x, images/project09-447_medium_1x.jpg 1x">
+              <img src="images/project09-738_big_1x.jpg" alt="Neighborhood Map">
+            </picture>
+            <div class="fondo">In this project, I will develop a single-page application featuring a map of your neighborhood or a neighborhood you would like to visit.</div>
+          </div>
+          <h4>Neighborhood Map</h4>
+        </article>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <div class="redes">
+      <ul>
+        <li><a href="#"><span class="zocial-googleplus"></span></a></li>
+        <li><a href="#"><span class="zocial-linkedin"></span></a></li>
+        <li><a href="#"><span class="zocial-github"></span></a></li>
+      </ul>
+    </div>
+    <p class="copy">All rights reserved &copy;. 2018</p>
+  </footer>
+  <script src="js/menu-hambur.js"></script>
+</body>
+</html>
