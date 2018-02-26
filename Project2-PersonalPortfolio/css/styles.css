@@ -1,9 +1,5 @@
-@import url("http://weloveiconfonts.com/api/?family=zocial");
-
-/* zocial */
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
-}
+/***** Mobile first ******/
+/***** General Styles ****/
 
 * {
   box-sizing: border-box;
@@ -31,6 +27,7 @@ h3 {
   color: #7e92aa;
 }
 
+/*  Container box of all content except the footer */
 .wrapper {
   width: 100%;
   max-width: 1592px;
@@ -38,6 +35,9 @@ h3 {
   display: flex;
   flex-wrap: wrap;
 }
+
+
+/***  Styles for the design style guide  ***/
 
 .styles {
   order: 1;
@@ -100,10 +100,14 @@ h3 {
   text-align: center;
   color: #313d49;
 }
+/***** End design styles guide  ****/
+
 
 .main {
   width: 100%;
 }
+
+/******* Styles for the header  *****/
 
 header {
   border-bottom: 2px solid #7e92aa;
@@ -114,9 +118,9 @@ header {
 }
 
 .logo {
-width: 100px;
-margin-left: 10px;
-height: 120px;
+  width: 100px;
+  margin-left: 10px;
+  height: 120px;
 }
 
 .logo img {
@@ -157,6 +161,10 @@ h2 {
   width: 36px;
 }
 
+/******* End styles for the header *******/
+
+/******* Styles for main navigation ******/
+/* I move the navigation out of the canvas */
 .nav-principal {
   width: 240px;
   position: absolute;
@@ -164,6 +172,12 @@ h2 {
   transform: translate(-245px,0);
   transition: transform 0.3s ease;
 }
+
+/* the open class is added with javascript when
+you click on the hamburger menu, (see js/menu-hambur.js),
+scrolling the navigation on the canvas, when you
+click on the canvas the open class disappears and
+the navigation is retracted again */
 
 .nav-principal.open {
   -webkit-transform: translate(0,0);
@@ -180,6 +194,7 @@ flex-direction: column;
   list-style-type: none;
 }
 
+/* Styles for anchor in main navigation and design style guide */
 .principal li a,
 .styles .button .button-link,
 .styles .button .button-hover {
@@ -267,6 +282,10 @@ h4 {
   flex-direction: column;
 }
 
+/* I create a shadow effect when we place
+the mouse on the images of future works,
+while a text is displayed */
+
 .next-works .shadow {
   position: relative;
   width: 100%;
@@ -291,6 +310,8 @@ h4 {
   opacity: 1;
 }
 
+/***** End of shadow effect *****/
+
 /********* Footer ********/
 
 footer {
@@ -313,20 +334,19 @@ footer {
   padding: 1.5rem;
 }
 
-.redes li a span {
-  font-size: 2rem;
-}
-
 .copy {
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 
+/************************************/
 /************  Responsive ***********/
+/************************************/
 
 @media screen and (min-width: 768px) {
+
+  /***  Styles for the design style guide  ***/
   .styles {
-    order: 1;
     width: 100%;
     padding-top: 80px;
     padding-left: 25px;
@@ -388,6 +408,9 @@ footer {
     text-align: center;
     color: #313d49;
   }
+
+  /*** Styles for the header ***/
+
   h1 {
     font-size: 1.5rem;
   }
@@ -398,6 +421,8 @@ footer {
   .menu {
     display: none;
   }
+
+  /******* Styles for main navigation ******/
 
   .nav-principal {
     width: 100%;
@@ -430,6 +455,8 @@ footer {
     color: #7e92aa;
   }
 
+  /** section feature and next works **/
+
   .feature, .next-works {
     flex-direction: row;
     flex-wrap: wrap;
@@ -457,16 +484,18 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+
+  /***  Styles for the design style guide  ***/
   .styles {
     display: block;
     order: 0;
     width: 20%;
-    padding-top: 80px;
+    padding-top: 100px;
     padding-left: 25px;
     padding-right: 25px;
   }
 
-  .styles h1, .styles h2, .styles h3 {
+  .styles h1, .styles h2 {
     margin: 0;
   }
 
@@ -500,10 +529,16 @@ footer {
     color: #7e92aa;
   }
 
+  .styles .icon-zocial {
+    margin: 15px 0 5px 0;
+  }
+
   .main {
     width: 80%;
     padding-right: 4%;
   }
+
+  /*** Styles for the header ***/
 
   h1 {
     font-size: 2rem;
@@ -513,9 +548,13 @@ footer {
     font-size: 1.5rem;
   }
 
+  /******* Styles for main navigation ******/
+
   .principal li a {
     font-size: 1.2rem;
   }
+
+  /** section feature and next works **/
 
   .feature, .next-works {
     justify-content: space-between;
