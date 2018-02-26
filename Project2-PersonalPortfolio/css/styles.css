@@ -516,7 +516,7 @@ footer {
   }
 
   .styles .button .button-link, .styles .button .button-hover {
-    margin: 1rem;
+    margin: 1rem auto;
     padding: 1rem;
     text-align: center;
     border: 1px solid #3eace1;
